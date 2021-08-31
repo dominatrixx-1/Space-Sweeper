@@ -1,0 +1,42 @@
+
+/******************************ID SELECTORS*****************************/
+h2 {
+    color:#3E00FF;
+    font-family:fantasy;
+
+}
+
+
+
+
+
+/*****************************CLASS SELECTORS************************************/
+.grid {
+
+    display: flex;
+    flex-wrap:wrap;
+    border:solid 1px;
+
+    width:300px;
+    height:300px ;
+
+}
+.grid div {
+    width: 20px;
+    height: 20px;;
+}
+.shooter{
+    background-color: #A239EA;
+}
+.invader {
+    background-color: #4A47A3;
+border-radius: 10px;
+
+}
+.boom {
+    background-color: #BD1616;
+}
+.laser {
+
+    background-color: #FFF338;
+}
